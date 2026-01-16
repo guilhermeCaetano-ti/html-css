@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: blueviolet;
+        }
+        
+        #conteudo {
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellowgreen;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quaerat, itaque hic fugiat optio, repellendus quisquam rem odio perferendis ab et amet dignissimos earum ipsum sint. Voluptatem non omnis id?</p>
+
+
+        </article>
+
+    </section>
+    
+</body>
+</html>
