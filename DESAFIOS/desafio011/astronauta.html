@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamento vertical</title>
+    <title>Astronauta</title>
     <style>
+        #body {
+           margin: 50px ;
+           background: red
+        }
+
         #container {
             background-size: 100% 100%;
+            background-image: url("imagens/espaco.jpg");
 
             position: relative;
-            height: 96vh;
+            height: 95vh;
             padding: 10px;
-            background-color: blueviolet;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         
         #conteudo {
             background-size: 100% 100%;
+            background-image: url('imagens/astronauta.png');
 
             position: absolute;
-            height: 200px;
-            width: 400px;
-            background-color: yellowgreen;
+            height: 600px;
+            width: 600px;
 
             left: 50%;
             top: 50%;
@@ -31,9 +38,10 @@
     </style>
 </head>
 <body>
+    
     <section id="container">
         <article id="conteudo">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quaerat, itaque hic fugiat optio, repellendus quisquam rem odio perferendis ab et amet dignissimos earum ipsum sint. Voluptatem non omnis id?</p>
+            
 
 
         </article>
